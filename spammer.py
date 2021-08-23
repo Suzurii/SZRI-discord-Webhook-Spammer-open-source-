@@ -43,7 +43,7 @@ def send(i):
     except:
         i += 1
         res = "Sent message " + text + " successful."
-    print(Fore.MAGENTA + res + Fore.MAGENTA + ' messages already sent: ' + Fore.RED + str(i)) # message for feedback lol
+    print(Fore.MAGENTA + res + Fore.MAGENTA + ' messages already sent: ' + Fore.RED + str(i)) # message for feedback
     return i
 i = 0
 while True: #loop
